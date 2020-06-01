@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dh/dev/csharp/breyn/breyn.csproj": {}
+  },
+  "projects": {
+    "/home/dh/dev/csharp/breyn/breyn.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dh/dev/csharp/breyn/breyn.csproj",
+        "projectName": "breyn",
+        "projectPath": "/home/dh/dev/csharp/breyn/breyn.csproj",
+        "packagesPath": "/home/dh/.nuget/packages/",
+        "outputPath": "/home/dh/dev/csharp/breyn/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Newtonsoft.JSON": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
